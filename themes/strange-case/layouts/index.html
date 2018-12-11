@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-3 sidebar">
+
+			{{ partial "sidebar-content.html" . }}
+
+			</div>
+			<div class="col-sm-7 col-sm-offset-4 col-md-8 col-lg-8 content" style="background-image:url('{{"vonc1.bmp" | absURL }}')">
+
+				<br />
+
+				<marquee bgcolor="black" loop="1000" behavior="up" width="500" height="25" scrollamount="5" scrolldelay="10">
+				<b>
+				<font color="white">You are now entering the strange and mysterious world of V.O.N.C - Extreme. Proceed With Caution!!
+				</font>
+				</b>
+				</marquee>
+
+				<br />
+
+				<img src="/header.bmp">
+
+				<br />
+
+				{{ with .Site.GetPage "/home" }}
+				<div class="post">
+
+					{{ .Content }}
+
+				</div>
+				{{ end }}
+
+			</div>
+			<div class="col-sm-1 col-md-3 col-md-4">
+			</div>
+		</div>
+	</div>
+
+{{ partial "footer.html" . }}

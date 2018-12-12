@@ -1,3 +1,7 @@
+---
+title: 'Results of V.O.N.C WAR'
+comments: false
+---
 
 This is the official V.O.N.C - Extreme website. But what the fu*k is V.O.N.C? And how is it extreme? I hear you saying to yourselves.
 

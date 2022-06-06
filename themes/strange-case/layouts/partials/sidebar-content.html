@@ -1,7 +1,7 @@
 
-	<div class="sidebar-content">
+	<div class="sidebar-content" style="bottom:0">
 
-		<ul class="sidebar-menus">
+		<ul class="sidebar-menus" style="background-color: black; border: 3px ridge gray;">
 			{{ range .Site.Menus.main }}
 				<li><a href="{{.URL}}">{{ .Name }}</a> {{ .Post }}</li><br /><br /><br />
 			{{end}}

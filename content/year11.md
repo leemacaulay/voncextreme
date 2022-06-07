@@ -1,5 +1,6 @@
 ---
 title: Year 11 Rules!
+url: /gamerules/year11
 comments: false
 ---
 

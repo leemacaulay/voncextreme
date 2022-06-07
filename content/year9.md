@@ -1,5 +1,6 @@
 ---
-title: Year 9 Rules
+title: Year 9 Rules!
+url: /gamerules/year9
 comments: false
 ---
 

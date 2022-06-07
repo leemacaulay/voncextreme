@@ -1,7 +1,6 @@
 ---
 title: Year 11 Rules!
 comments: false
-url: /gamerules/year11
 ---
 
 This page is devoted to explaining the rules of V.O.N.C - Extreme for the Year 11 games.

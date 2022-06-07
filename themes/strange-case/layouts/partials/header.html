@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{ .Hugo.Generator }}
+	{{ hugo.Generator }}
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>{{ .Title }} - {{ .Site.Params.description }}</title>
 
@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{ .Site.BaseURL }}/css/strange-case.css" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}/custom.css" rel="stylesheet">
 	<!--<style type="text/css" media="all">
 		# Optional: comment out strange-case.css above, minify it with YUICompressor and paste inline styles here to lose a request...
 	</style>-->
@@ -23,4 +24,4 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	{{ "<![endif]-->" | safeHTML }}
 </head>
-<body class="{{ .Site.Params.colorScheme }}" style="background-image:url('https://voncclub.netlify.app/vonc1.bmp');">
+<body class="{{ .Site.Params.colorScheme }} bg">

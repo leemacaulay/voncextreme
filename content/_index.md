@@ -1,5 +1,5 @@
 ---
-title: 'Results of V.O.N.C WAR'
+title: 'V.O.N.C – Extreme'
 comments: false
 ---
 
